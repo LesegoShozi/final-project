@@ -1,0 +1,137 @@
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ========== VIRTUAL ENVIRONMENTS ==========
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# ========== IDE & EDITOR ==========
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ========== DOCKER ==========
+# Docker build artifacts
+chroma_db/
+chroma-data/
+chroma/
+*.db
+*.sqlite3
+
+# Docker Compose
+docker-compose.override.yml
+
+# ========== ML/MODEL FILES ==========
+# Large model files (cache them locally)
+.cache/
+models/
+*.pth
+*.pt
+*.bin
+*.h5
+*.joblib
+*.pkl
+
+# Hugging Face cache
+~/.cache/huggingface/
+
+# Sentence Transformers cache
+~/.cache/torch/
+~/.cache/sentence_transformers/
+
+# ========== STREAMLIT ==========
+.streamlit/
+*.log
+
+# ========== DATA & DATABASE ==========
+data/
+*.csv
+*.json
+*.parquet
+*.feather
+
+# ChromaDB persistence
+chroma_storage/
+vector_store/
+
+# ========== LOGS ==========
+*.log
+logs/
+
+# ========== SYSTEM FILES ==========
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========== ENVIRONMENT VARIABLES ==========
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ========== TEMPORARY FILES ==========
+*.tmp
+*.temp
+temp/
+tmp/
+
+# ========== OS SPECIFIC ==========
+# Windows
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# ========== PROJECT SPECIFIC ==========
+# Your specific exclusions
+local_test_data/
+experiments/
+notebooks/.ipynb_checkpoints
+
+# ========== GIT ==========
+# Git related
+.git-credentials
+.gitattributes

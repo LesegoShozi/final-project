@@ -1,0 +1,3 @@
+﻿# Use Windows Server Core base
+FROM mcr.microsoft.com/windows/servercore:ltsc2022
+CMD ["cmd", "/c", "echo AI Semantic Search Project && echo Student: YN3012170034"]
